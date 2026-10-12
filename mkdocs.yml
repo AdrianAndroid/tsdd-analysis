@@ -57,6 +57,7 @@ nav:
   - 总览: README.md
   - 专题深度分析:
       - IM 消息机制深度分析: IM消息机制深度分析.md
+      - 移动端聊天窗口与消息性能专项分析: 移动端聊天窗口与消息性能专项分析.md
   - 服务端:
       - TangSengDaoDaoServer（业务后端）: TangSengDaoDaoServer.md
       - TangSengDaoDaoServerLib（框架底座）: TangSengDaoDaoServerLib.md
