@@ -23,6 +23,12 @@
 | 9 | TangSengDaoDaoJSBridge | **H5↔原生桥库** | TS / Rollup（WebViewJavascriptBridge 协议） | 2 文件 ~134 行 | [TangSengDaoDaoJSBridge.md](TangSengDaoDaoJSBridge.md)（220 行） |
 | 10 | TangSengDaoDaoDocs | **文档站** | VitePress 1.0 / nginx Docker | 82 篇 md | [TangSengDaoDaoDocs.md](TangSengDaoDaoDocs.md)（399 行） |
 
+### 专题深度分析
+
+| # | 文档 | 范围 | 说明 |
+|---|------|------|------|
+| 11 | [IM消息机制深度分析.md](IM消息机制深度分析.md)（1006 行） | WuKongIM 服务端 v1.2.6 + 三端 IM SDK + 业务服务端 + 三端 App | 基于真实源码（逐条 file:line 引用）的 IM 工程评审：二进制协议、HTTP 与长连接分工、移动端监听注册与收发全链路、离线消息/ACK/多端同步、跨仓库端到端时序、风险与待确认清单。分析基线额外引入 WuKongIM 组织 3 个仓库（WuKongIM / WuKongIMAndroidSDK / wukongimjssdk，版本对齐签出） |
+
 **阅读建议**：先读 Server（核心）→ ServerLib（框架契约）→ 任一端客户端 → Cli/appstore（部署）→ Docs（官方口径）。每份文档第 9 节为该仓库的风险汇总表。
 
 ---

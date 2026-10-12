@@ -38,3 +38,15 @@
 	path = appstore
 	url = https://github.com/TangSengDaoDao/appstore.git
 	shallow = true
+[submodule "WuKongIM"]
+	path = WuKongIM
+	url = git@github.com:WuKongIM/WuKongIM.git
+	shallow = true
+[submodule "WuKongIMAndroidSDK"]
+	path = WuKongIMAndroidSDK
+	url = git@github.com:WuKongIM/WuKongIMAndroidSDK.git
+	shallow = true
+[submodule "wukongimjssdk"]
+	path = wukongimjssdk
+	url = git@github.com:WuKongIM/wukongimjssdk.git
+	shallow = true
