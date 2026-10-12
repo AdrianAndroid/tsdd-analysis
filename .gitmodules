@@ -1,0 +1,40 @@
+[submodule "TangSengDaoDaoServer"]
+	path = TangSengDaoDaoServer
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoServer.git
+	shallow = true
+[submodule "TangSengDaoDaoServerLib"]
+	path = TangSengDaoDaoServerLib
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoServerLib.git
+	shallow = true
+[submodule "TangSengDaoDaoCli"]
+	path = TangSengDaoDaoCli
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoCli.git
+	shallow = true
+[submodule "TangSengDaoDaoWeb"]
+	path = TangSengDaoDaoWeb
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoWeb.git
+	shallow = true
+[submodule "TangSengDaoDaoManager"]
+	path = TangSengDaoDaoManager
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoManager.git
+	shallow = true
+[submodule "TangSengDaoDaoJSBridge"]
+	path = TangSengDaoDaoJSBridge
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoJSBridge.git
+	shallow = true
+[submodule "TangSengDaoDaoAndroid"]
+	path = TangSengDaoDaoAndroid
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoAndroid.git
+	shallow = true
+[submodule "TangSengDaoDaoiOS"]
+	path = TangSengDaoDaoiOS
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoiOS.git
+	shallow = true
+[submodule "TangSengDaoDaoDocs"]
+	path = TangSengDaoDaoDocs
+	url = https://github.com/TangSengDaoDao/TangSengDaoDaoDocs.git
+	shallow = true
+[submodule "appstore"]
+	path = appstore
+	url = https://github.com/TangSengDaoDao/appstore.git
+	shallow = true
