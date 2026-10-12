@@ -21,3 +21,11 @@ desktop.ini
 # 本地环境配置（防误提交）
 .env
 .env.local
+
+# MkDocs 构建产物
+site/
+
+# Python 虚拟环境
+.venv/
+venv/
+__pycache__/

@@ -1,52 +1,52 @@
 [submodule "TangSengDaoDaoServer"]
-	path = TangSengDaoDaoServer
+	path = projects/TangSengDaoDaoServer
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoServer.git
 	shallow = true
 [submodule "TangSengDaoDaoServerLib"]
-	path = TangSengDaoDaoServerLib
+	path = projects/TangSengDaoDaoServerLib
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoServerLib.git
 	shallow = true
 [submodule "TangSengDaoDaoCli"]
-	path = TangSengDaoDaoCli
+	path = projects/TangSengDaoDaoCli
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoCli.git
 	shallow = true
 [submodule "TangSengDaoDaoWeb"]
-	path = TangSengDaoDaoWeb
+	path = projects/TangSengDaoDaoWeb
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoWeb.git
 	shallow = true
 [submodule "TangSengDaoDaoManager"]
-	path = TangSengDaoDaoManager
+	path = projects/TangSengDaoDaoManager
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoManager.git
 	shallow = true
 [submodule "TangSengDaoDaoJSBridge"]
-	path = TangSengDaoDaoJSBridge
+	path = projects/TangSengDaoDaoJSBridge
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoJSBridge.git
 	shallow = true
 [submodule "TangSengDaoDaoAndroid"]
-	path = TangSengDaoDaoAndroid
+	path = projects/TangSengDaoDaoAndroid
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoAndroid.git
 	shallow = true
 [submodule "TangSengDaoDaoiOS"]
-	path = TangSengDaoDaoiOS
+	path = projects/TangSengDaoDaoiOS
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoiOS.git
 	shallow = true
 [submodule "TangSengDaoDaoDocs"]
-	path = TangSengDaoDaoDocs
+	path = projects/TangSengDaoDaoDocs
 	url = https://github.com/TangSengDaoDao/TangSengDaoDaoDocs.git
 	shallow = true
 [submodule "appstore"]
-	path = appstore
+	path = projects/appstore
 	url = https://github.com/TangSengDaoDao/appstore.git
 	shallow = true
 [submodule "WuKongIM"]
-	path = WuKongIM
+	path = projects/WuKongIM
 	url = git@github.com:WuKongIM/WuKongIM.git
 	shallow = true
 [submodule "WuKongIMAndroidSDK"]
-	path = WuKongIMAndroidSDK
+	path = projects/WuKongIMAndroidSDK
 	url = git@github.com:WuKongIM/WuKongIMAndroidSDK.git
 	shallow = true
 [submodule "wukongimjssdk"]
-	path = wukongimjssdk
+	path = projects/wukongimjssdk
 	url = git@github.com:WuKongIM/wukongimjssdk.git
 	shallow = true

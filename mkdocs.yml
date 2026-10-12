@@ -1,0 +1,72 @@
+site_name: TangSengDaoDao 生态源码分析
+site_description: 唐僧叨叨（TangSengDaoDao）全生态 13 个源码仓库的深度分析文档
+site_author: AdrianAndroid
+repo_url: https://github.com/AdrianAndroid/tsdd-analysis
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+
+nav:
+  - 总览: README.md
+  - 专题深度分析:
+      - IM 消息机制深度分析: IM消息机制深度分析.md
+  - 服务端:
+      - TangSengDaoDaoServer（业务后端）: TangSengDaoDaoServer.md
+      - TangSengDaoDaoServerLib（框架底座）: TangSengDaoDaoServerLib.md
+  - 客户端:
+      - TangSengDaoDaoWeb（Web/桌面端）: TangSengDaoDaoWeb.md
+      - TangSengDaoDaoAndroid（Android 端）: TangSengDaoDaoAndroid.md
+      - TangSengDaoDaoiOS（iOS 端）: TangSengDaoDaoiOS.md
+  - 周边仓库:
+      - TangSengDaoDaoManager（运营管理台）: TangSengDaoDaoManager.md
+      - TangSengDaoDaoCli（一键部署）: TangSengDaoDaoCli.md
+      - appstore（面板应用打包）: appstore.md
+      - TangSengDaoDaoJSBridge（H5 桥库）: TangSengDaoDaoJSBridge.md
+      - TangSengDaoDaoDocs（官方文档站）: TangSengDaoDaoDocs.md
